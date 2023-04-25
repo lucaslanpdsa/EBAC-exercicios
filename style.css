@@ -1,0 +1,63 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  padding-top: 20vh;
+}
+
+.container {
+  text-align: center;
+  padding: 20px 50px 50px 50px;
+  border: 1px solid rgb(91, 94, 91);
+  width: min-content;
+  margin: auto auto;
+}
+
+form {
+  margin-top: 16px;
+  gap: 16px;
+}
+
+input {
+  display: block;
+  margin: 8px 0;
+  outline-color: rgb(217, 216, 214);
+  padding: 3px 6px;
+  width: 20vw;
+}
+
+button {
+  width: 100%;
+  padding: 8px;
+  border: none;
+  background-color: rgb(114, 241, 114);
+  border-radius: 5px;
+}
+
+p {
+  padding: 8px 0;
+  border-radius: 5px;
+  background-color: rgb(114, 241, 114);
+}
+
+.incorreto {
+  margin-top: 8px;
+  background-color: rgb(244, 78, 78);
+  color: rgb(9, 9, 9);
+}
+
+.correto {
+  margin-top: 8px;
+}
+
+.display-off {
+  display: none;
+}
+
+.display-on {
+  display: block;
+}

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=, initial-scale=1.0">
+  <title>Formulario validado</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>formulario</h1>
+    <form id="form">
+        <input type="number" required placeholder="smaller number / Numero menor" id="campoA">
+        <input type="number" required placeholder="bigger number / Numero maior" id="campoB">
+      <button id="btn" type="submit">Enviar</button>
+      <p class="correto display-off">Enviado com sucesso</p>
+      <p class="incorreto display-off">O numero do campo A é maior que o do campo B</p>
+    </form>
+  </div>
+  <script src="./main.js"></script>
+</body>
+</html>
