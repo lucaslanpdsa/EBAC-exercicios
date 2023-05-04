@@ -1,0 +1,46 @@
+body {
+  background-color: rgb(36, 36, 39);
+  font-size: 24px;
+}
+
+.container {
+  width: 50%;
+  margin: 0 auto;
+  padding: 16px;
+  border: 1px solid wheat;
+  height: 90vh;
+}
+
+form {
+  text-align: center;
+}
+
+h1 {
+  color: rgb(247, 247, 247);
+  text-align: center;
+}
+
+input,
+button {
+  margin-bottom: 8px;
+  padding: 8px;
+  border-radius: 2px;
+  border: 1px solid rgb(246, 246, 246);
+}
+
+button {
+  color: #090909;
+  background-color: rgb(211, 211, 225);
+}
+
+li {
+  color: #Fff;
+}
+
+li:hover {
+  cursor: pointer;
+}
+
+.concluido {
+  text-decoration: line-through
+}
