@@ -1,1 +1,1 @@
-﻿# EBAC-exercicios (cada exercício esta em uma branch específica)
+﻿# EBAC-exercicios (cada exercício está em uma branch específica)
