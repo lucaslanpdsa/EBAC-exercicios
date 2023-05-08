@@ -1,0 +1,26 @@
+.container {
+  max-width: 60%;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+form {
+  margin: 0 auto;
+  width: min-content;
+  text-align: start;
+}
+
+input {
+  margin: 0 0 12px 0;
+}
+
+button {
+  margin: 0 auto;
+  color: #FFF;
+  border: none;
+  border-radius: 6px;
+  width: 100%;
+  padding: 8px;
+  background-color: rgb(127, 118, 118);
+}
